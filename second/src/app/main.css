@@ -48,10 +48,15 @@ a {
   }
 }
 
-main{
+main {
   max-width: 1040px;
-  margin: auto;
+  margin: 0 auto;   /* centers horizontally */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header{
+  padding: 20px 10px;
+  box-shadow: 0px 0px 1px gray;
 }
